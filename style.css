@@ -9,14 +9,12 @@
   background-color: rgb(41, 40, 40);
   display: grid;
   justify-content: center;
-  align-items: flex-end;
+  align-content: center;
 }
 
 .konteiner {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 6fr 1fr;
-  border: 10px solid #181719;
-  background-color: #181719;
   width: 900px;
   height: 620px;
   position: relative;
@@ -24,9 +22,8 @@
 
 nav {
   display: grid;
-  grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 5fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 90px;
-  padding-left: 40px;
   justify-content: center;
   align-items: center;
 }
@@ -40,12 +37,14 @@ a {
   grid-template-columns: repeat(2, 3fr);
   grid-template-rows: 450px;
   justify-content: center;
+  gap: 100px;
 }
 
 .img-interier {
   padding-right: 50px;
   display: grid;
   align-content: center;
+  padding-top: 20px;
 }
 
 .text {
@@ -53,6 +52,9 @@ a {
   padding-left: 30px;
   display: grid;
   align-content: center;
+  justify-content: center;
+  font-size: 25px;
+  width: 400px;
 }
 
 .avatar {
@@ -84,6 +86,9 @@ pre {
 .item {
   font-size: 10px;
   margin-left: 10px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
 }
 
 .nav-1text {
@@ -117,5 +122,5 @@ pre {
   color: gray;
   display: grid;
   justify-content: center;
-  padding-top: 40px;
+  padding-top: 70px;
 }

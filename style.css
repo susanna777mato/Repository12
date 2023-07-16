@@ -7,12 +7,8 @@
 .backgrunde {
   height: 100vh;
   background-color: rgb(41, 40, 40);
-  display: grid;
   justify-content: center;
   align-content: center;
-}
-
-.konteiner {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 6fr 1fr;
   position: relative;
@@ -42,12 +38,12 @@ a {
   padding-right: 80px;
   display: grid;
   align-content: center;
-  padding-top: 40px;
+  padding-top: 80px;
 }
 
 .text {
   color: white;
-  padding-left: 90px;
+  /* padding-left: 90px; */
   display: grid;
   align-content: center;
   justify-content: center;

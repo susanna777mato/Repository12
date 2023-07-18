@@ -11,7 +11,7 @@
   align-content: center;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 6fr 1fr;
-  position: relative;
+  /* position: relative; */
 }
 
 nav {
@@ -19,8 +19,8 @@ nav {
   grid-template-columns: 5fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 90px;
   justify-content: center;
-  align-items: center;
-  padding-left: 115px;
+  padding-left: 80px;
+  padding-top: 13px;
 }
 
 a {
@@ -39,6 +39,7 @@ a {
   display: grid;
   align-content: center;
   padding-top: 80px;
+  position: relative;
 }
 
 .text {
@@ -61,7 +62,7 @@ a {
   grid-template-columns: 50px 100px;
   position: absolute;
   left: 950px;
-  top: 500px;
+  top: 540px;
 }
 
 .img-avatar {
@@ -91,7 +92,7 @@ pre {
 
 .nav-text {
   display: grid;
-  place-content: center;
+  place-items: center;
   color: gray;
   text-decoration: none;
   font-size: 10px;
@@ -103,7 +104,6 @@ pre {
 .nav-2text {
   display: grid;
   justify-content: center;
-  align-content: center;
   text-decoration: none;
   border-bottom: 2px solid white;
   width: 40px;
